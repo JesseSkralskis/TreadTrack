@@ -2,7 +2,7 @@
   "expo": {
     "name": "tracks",
     "slug": "tracks",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -13,11 +13,11 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["assets/**/*"],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.jesseskralskis.treadtrack",
+      "supportsTablet": true,
+      "buildNumber": "2"
     },
     "web": {
       "favicon": "./assets/favicon.png"
